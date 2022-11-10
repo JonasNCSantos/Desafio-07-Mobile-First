@@ -24,4 +24,44 @@
 
 body{
   font-size: var(--fs-body);
+  background: var(--bg-body);
+}
+
+header{
+  background: var(--bg-heading);
+  width: 100%;
+  height: 27.9rem;
+  text-align: center;
+}
+
+header img{
+  width: 13.7rem;
+  height: 13.7rem;
+  margin: 3.2rem 0;
+}
+
+header h1{
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  line-height: 3.4rem;
+  letter-spacing: 0.05rem;
+  color: var(--fc-heading);
+  text-shadow: 0 2px 2px var(--color-Shadow);
+  padding: 0.8rem 0;
+  background: var(--bg-title-heading);
+}
+
+main{
+  margin: 1.4rem auto 0;
+  width: 32.0rem;
+}
+
+main p{
+  font-family: var(--ff-secundary);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: var(--fc-body);
+  margin-bottom: 6.3rem;
 }
