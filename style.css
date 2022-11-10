@@ -1,0 +1,27 @@
+:root{
+  /* Paleta de cores */
+  --bg-heading: #8E9AAF;
+  --bg-body: #EFF1FF;
+  --bg-title-heading: #CBC0D3;
+  --bg-tag: #FEEAFA;
+  --fc-heading: #FFFFFF;
+  --fc-body: #23053A;
+  --fc-tag: #4A4E69;
+  --color-Shadow: rgba(0, 0, 0, 0.25);
+  
+  /* Variaves de Fonte */
+  font-size: 62.5%;
+  --fs-body: 1.6rem;
+  --ff-primary: 'Staatliches', cursive;
+  --ff-secundary: 'Palanquin', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: var(--fs-body);
+}
