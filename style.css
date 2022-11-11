@@ -69,6 +69,7 @@ main p{
 .cards-group{
   display: grid;
   gap: 3.2rem;
+  animation: downtop 900ms 350ms;
 }
 
 .card{
@@ -91,6 +92,7 @@ main p{
   top: 1.6rem;
   right: 1.6rem;
   color: var(--fc-tag);
+  animation: topdown 900ms 350ms;
 }
 
 .card-1 img, .card-3 img{
@@ -105,4 +107,26 @@ main p{
   height: 45rem;
   object-fit: cover;
   border-radius: 2rem;
+}
+
+@keyframes topdown{
+  0%{
+      opacity: 0;
+      transform: translateY(-25px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes downtop{
+  0%{
+      opacity: 0;
+      transform: translateY(80px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
